@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instructions">Select your predefined text from the list below.</string><string name="app_name">UDI</string>
+    
+    <string name="loginfo_udi_serviceoncreate">User Defined Input Method Service, InputMethodService.OnCreate Method</string>
+    <string name="service_name">UDI Input Method Service</string>
+    <string name="management_name">UDI Management Activity</string>
+
+</resources>
