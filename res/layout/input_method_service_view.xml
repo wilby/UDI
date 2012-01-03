@@ -2,17 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="160dip"    
+>
    
 	<ListView xmlns:android="http://schemas.android.com/apk/res/android"  
-		    android:layout_width="fill_parent"
-		    android:layout_height="0dp"	    
-		    android:layout_weight="0.5" 
-		    android:tag="lv" >
+		    android:layout_width="fill_parent"		
+		    android:layout_height="fill_parent"
+		    android:layout_weight="4"
+		    android:id="@+id/lvInputMethod"
+		    android:background="@color/im_background"
+		    android:padding="2dip"		    
+		    android:paddingTop="5dip"
+		    android:paddingBottom="5dip"
+		    >
 	</ListView>
-	 <Button android:id="@+id/button"
+	 <Button android:id="@+id/btnSettings"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="Settings" />
+            android:layout_weight="1"
+            android:layout_margin="1dip"
+            android:padding="0dip"            
+            android:textSize="12sp"            
+            android:text="@string/inputview_manage_defs" />
 </LinearLayout>
+

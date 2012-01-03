@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="instructions">Select your predefined text from the list below.</string><string name="app_name">UDI</string>
+    <string name="instructions">Select your predefined text from the list below.</string><string name="app_name">UDI : User Defined Input</string>
     
     <string name="loginfo_udi_serviceoncreate">User Defined Input Method Service, InputMethodService.OnCreate Method</string>
-    <string name="service_name">UDI Input Method Service</string>
+    <string name="service_name">UDI : User Defined Input</string>
     <string name="management_name">UDI Management Activity</string>
+    <string name="dialog_yes">Yes, Really!</string>
+    <string name="dialog_no">No Way!</string>
+    <string name="confirm_delete_dialog_title">Delete?</string>
+    <string name="confirm_delete_dialog_message">Are you sure you want to delete this definition?</string>
+    <string name="management_value_field">Value (example: abc@gmail.com)</string>
+    <string name="management_name_field">Name (example: email)</string>
+    <string name="management_button_text">Add Definition</string>
+    <string name="management_delete_item_below">To remove a definition, press on the listing below.</string>
+    <string name="management_added"> added successfully</string>
+    <string name="management_changed"> changed successfully</string>
+    <string name="inputview_manage_defs">Manage Definitions</string>
 
 </resources>

@@ -9,7 +9,7 @@
     android:layout_height="wrap_content"
     android:padding="5dp"
     android:textSize="16sp" 
-    android:text="Name (example: email)" />
+    android:text="@string/management_name_field" />
     <EditText
         android:id="@+id/pref_name"
         android:layout_width="fill_parent"
@@ -19,25 +19,28 @@
     android:layout_height="wrap_content"
     android:padding="5dp"
     android:textSize="16sp" 
-    android:text="Value (example: abc@gmail.com)" />  
+    android:text="@string/management_value_field" />  
 	<EditText
 		android:id="@+id/pref_value"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"/>
-    <Button android:id="@+id/submit"
+    <Button android:id="@+id/btnSubmit"        	
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="Add Definition" />    
+            android:text="@string/management_button_text" />  
+    <net.wcjj.UDI.BorderedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:textSize="12sp"    
+    android:layout_margin="5dip"
+    android:textColor="#B8860B"
+    android:text="@string/management_delete_item_below" />  
 	<ListView xmlns:android="http://schemas.android.com/apk/res/android"  
 		    android:layout_width="fill_parent"
 		    android:layout_height="0dp"	    
 		    android:layout_weight="0.5" 
-		    android:tag="lv" >
-	</ListView>
-	 <Button android:id="@+id/delete"
-	          android:layout_width="fill_parent"
-	          android:layout_height="wrap_content"
-	          android:textSize="20sp"
-	          android:text="Delete Checked Items" />
+		    android:id="@+id/lvItemsToDelete" >
+	</ListView>	 
 </LinearLayout>
