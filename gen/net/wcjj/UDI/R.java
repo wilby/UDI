@@ -48,6 +48,7 @@ public final class R {
         public static final int management_name=0x7f060004;
         public static final int management_name_field=0x7f06000a;
         public static final int management_value_field=0x7f060009;
+        public static final int no_shared_preference_file=0x7f060010;
         public static final int service_name=0x7f060003;
     }
     public static final class xml {

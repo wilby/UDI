@@ -16,5 +16,6 @@
     <string name="management_added"> added successfully</string>
     <string name="management_changed"> changed successfully</string>
     <string name="inputview_manage_defs">Manage Definitions</string>
+    <string name="no_shared_preference_file">The indicated preference file does not exist.</string>
 
 </resources>

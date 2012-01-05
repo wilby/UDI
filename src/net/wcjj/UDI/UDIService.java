@@ -71,7 +71,7 @@ public class UDIService extends InputMethodService {
 		params.height = (height / 2);
 		mInputView.setLayoutParams(params);*/
 		
-		ListView lv = (ListView)mInputView.findViewById(R.id.lvInputMethod);	
+		ListView lv = (ListView)mInputView.findViewById(R.id.lvInputMethod);
 		lv.setAdapter(mAdapter);
 		lv.setOnItemClickListener(new OnItemClickListener() {
 			@Override

@@ -33,7 +33,7 @@ public class PreferencesToTextViewAdapter extends BaseAdapter {
 		mResource = resource;
 		mPreferences = context.getSharedPreferences(preferenceName, mode);
 		if (mPreferences == null) {			
-			throw new FileNotFoundException("The indicated preference file does not exist");
+			throw new FileNotFoundException(mContext.getString(R.string.no_shared_preference_file));
 		}
 	}
 	
@@ -72,7 +72,8 @@ public class PreferencesToTextViewAdapter extends BaseAdapter {
 			tv = (TextView) inflater.inflate(mResource, null);			
 		} else {
 			tv = (TextView) convertView;
-		}		
+		}
+		
 		String key = preference.keySet().toArray()[0].toString();
 		tv.setTag(key);
 		tv.setText(key + ": " + preference.get(key));		
